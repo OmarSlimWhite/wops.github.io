@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="assets/images/logo.png" rel="icon" type="image/png" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Cleaning | White Omar Property Solutions</title>
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <meta content="Cleaning | White Omar Property Solutions" property="og:title" />
+    <meta content="Professional cleaning services for residential and commercial properties." property="og:description" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="min-h-screen bg-white">
+        <!-- Navigation -->
+        <nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-transparent">
+          <div class="container mx-auto px-6 lg:px-12">
+            <div class="flex items-center justify-between h-20">
+              <a class="flex items-center gap-3 group" href="index.html">
+                <div class="p-2 rounded-xl transition-all duration-300 bg-white/10 backdrop-blur-sm border border-white/20">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 h-6 w-6 text-white">
+                    <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
+                    <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
+                    <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
+                    <path d="M10 6h4"></path>
+                    <path d="M10 10h4"></path>
+                    <path d="M10 14h4"></path>
+                    <path d="M10 18h4"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h1 class="font-bold text-lg leading-tight transition-colors text-white">WHITE OMAR</h1>
+                  <p class="text-xs transition-colors text-white/70">PROPERTY SOLUTIONS</p>
+                </div>
+              </a>
+              <div class="hidden md:flex items-center gap-8">
+                <a class="relative font-medium transition-colors text-white/90 hover:text-white" href="index.html">Home</a>
+                <a class="relative font-medium transition-colors text-white/90 hover:text-white" href="services.html">Investments</a>
+                <a class="flex items-center gap-1.5 px-4 py-2 rounded-full font-semibold transition-all bg-white/10 backdrop-blur-sm text-white border border-white/20 hover:bg-white/20" href="cleaning.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles h-4 w-4">
+                    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                    <path d="M20 3v4"></path>
+                    <path d="M22 5h-4"></path>
+                    <path d="M4 17v2"></path>
+                    <path d="M5 18H3"></path>
+                  </svg>Cleaning Services
+                </a>
+                <a class="relative font-medium transition-colors text-white/90 hover:text-white" href="about.html">About</a>
+                <a class="relative font-medium transition-colors text-white/90 hover:text-white" href="contact.html">Contact</a>
+                <a href="contact.html">
+                  <button class="px-6 py-2.5 rounded-xl font-semibold transition-all duration-300 bg-white text-slate-900 hover:bg-white/90">Get Started</button>
+                </a>
+              </div>
+              <button class="md:hidden p-2 rounded-xl transition-colors text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-6 w-6">
+                  <line x1="4" x2="20" y1="12" y2="12"></line>
+                  <line x1="4" x2="20" y1="6" y2="6"></line>
+                  <line x1="4" x2="20" y1="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <!-- Mobile Menu -->
+          <div id="mobile-menu" class="md:hidden bg-white border-t border-slate-100 shadow-xl overflow-hidden transition-all duration-300" style="height: 0; opacity: 0;">
+            <div class="container mx-auto px-6 py-6 space-y-2">
+              <a class="flex items-center justify-between p-4 rounded-xl transition-colors text-slate-700 hover:bg-slate-50" href="index.html"><span class="font-medium">Home</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-slate-400"><path d="m9 18 6-6-6-6"></path></svg></a>
+              <a class="flex items-center justify-between p-4 rounded-xl transition-colors text-slate-700 hover:bg-slate-50" href="services.html"><span class="font-medium">Investments</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-slate-400"><path d="m9 18 6-6-6-6"></path></svg></a>
+              <a class="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-600 text-white" href="cleaning.html"><span class="font-medium flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>Cleaning Services</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-white/70"><path d="m9 18 6-6-6-6"></path></svg></a>
+              <a class="flex items-center justify-between p-4 rounded-xl transition-colors text-slate-700 hover:bg-slate-50" href="about.html"><span class="font-medium">About</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-slate-400"><path d="m9 18 6-6-6-6"></path></svg></a>
+              <a class="flex items-center justify-between p-4 rounded-xl transition-colors text-slate-700 hover:bg-slate-50" href="contact.html"><span class="font-medium">Contact</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-slate-400"><path d="m9 18 6-6-6-6"></path></svg></a>
+              <a class="block pt-4" href="contact.html"><button class="w-full py-3 bg-slate-900 text-white font-semibold rounded-xl hover:bg-slate-800 transition-colors">Get Started</button></a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+          <div>
+            <!-- Hero Section -->
+            <section class="relative pt-32 pb-24 bg-gradient-to-br from-cyan-600 via-cyan-500 to-teal-500 overflow-hidden">
+              <div class="absolute inset-0 opacity-10">
+                <div class="absolute top-20 left-20 w-40 h-40 border-4 border-white rounded-full"></div>
+                <div class="absolute bottom-20 right-20 w-60 h-60 border-4 border-white rounded-full"></div>
+              </div>
+              <div class="absolute top-40 right-40 w-4 h-4 bg-white/30 rounded-full animate-bounce"></div>
+              <div class="absolute bottom-40 left-40 w-6 h-6 bg-white/20 rounded-full animate-bounce" style="animation-delay: 0.5s;"></div>
+              <div class="container mx-auto px-6 lg:px-12 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                  <div>
+                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full mb-6">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles h-5 w-5 text-white">
+                        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+                        <path d="M20 3v4"></path>
+                        <path d="M22 5h-4"></path>
+                        <path d="M4 17v2"></path>
+                        <path d="M5 18H3"></path>
+                      </svg>
+                      <span class="text-white font-medium">Professional Cleaning Services</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">Spotless Spaces,<br><span class="text-cyan-100">Happy Places</span></h1>
+                    <p class="text-xl text-cyan-50 mb-8 leading-relaxed">From residential deep cleans to commercial maintenance, our professional cleaning team delivers exceptional results every time.</p>
+                    <div class="flex flex-wrap gap-4 mb-8">
+                      <a href="tel:+18552467460">
+                        <button class="inline-flex items-center justify-center gap-2 h-10 bg-white hover:bg-cyan-50 text-cyan-600 font-bold px-8 py-6 text-lg rounded-xl shadow-lg transition-all duration-300">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone mr-2 h-5 w-5">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                          </svg>1-855-246-7460
+                        </button>
+                      </a>
+                      <a href="#quote-form">
+                        <button class="inline-flex items-center justify-center gap-2 h-10 border-2 border-white bg-transparent text-white hover:bg-white hover:text-cyan-600 font-semibold px-8 py-6 text-lg rounded-xl">Get Free Quote
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-5 w-5">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                          </svg>
+                        </button>
+                      </a>
+                    </div>
+                    <div class="flex items-center gap-6">
+                      <div class="flex -space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-white/20 border-2 border-white flex items-center justify-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-white fill-white">
+                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                          </svg>
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-white/20 border-2 border-white flex items-center justify-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-white fill-white">
+                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                          </svg>
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-white/20 border-2 border-white flex items-center justify-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-white fill-white">
+                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                          </svg>
+                        </div>
+                        <div class="w-10 h-10 rounded-full bg-white/20 border-2 border-white flex items-center justify-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-white fill-white">
+                            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="flex items-center gap-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-yellow-300 fill-yellow-300"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-yellow-300 fill-yellow-300"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-yellow-300 fill-yellow-300"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-yellow-300 fill-yellow-300"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-yellow-300 fill-yellow-300"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                        <p class="text-cyan-100 text-sm">500+ 5-Star Reviews</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hidden lg:block">
+                    <div class="relative">
+                      <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20">
+                        <img src="assets/images/cleaning-hero.jpg" alt="Professional Cleaning" class="w-full h-[500px] object-cover">
+                      </div>
+                      <div class="absolute -left-6 top-1/3 bg-white rounded-2xl p-4 shadow-xl">
+                        <div class="flex items-center gap-3">
+                          <div class="p-2 bg-green-100 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-6 w-6 text-green-600"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                          </div>
+                          <div>
+                            <p class="font-bold text-slate-900">100% Satisfaction</p>
+                            <p class="text-sm text-slate-500">Guaranteed</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="absolute -right-6 bottom-1/4 bg-white rounded-2xl p-4 shadow-xl">
+                        <div class="flex items-center gap-3">
+                          <div class="p-2 bg-cyan-100 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-6 w-6 text-cyan-600"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+                          </div>
+                          <div>
+                            <p class="font-bold text-slate-900">Same Week</p>
+                            <p class="text-sm text-slate-500">Availability</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="py-24 bg-white">
+              <div class="container mx-auto px-6 lg:px-12">
+                <div class="text-center mb-16">
+                  <span class="inline-block px-4 py-1.5 bg-cyan-100 text-cyan-700 text-sm font-medium rounded-full mb-4">Our Cleaning Services</span>
+                  <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Cleaning Solutions for<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600"> Every Need</span></h2>
+                  <p class="text-lg text-slate-600 max-w-2xl mx-auto">Whether it's your home, office, or a property transition, our professional team delivers spotless results every time.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                  <!-- Residential -->
+                  <div class="p-8 rounded-3xl bg-cyan-50 border border-slate-100 hover:shadow-xl transition-all duration-500">
+                    <div class="inline-flex p-4 rounded-2xl bg-gradient-to-br from-cyan-500 to-cyan-600 mb-6 shadow-lg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house h-8 w-8 text-white"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Residential Cleaning</h3>
+                    <p class="text-slate-600 mb-6">Complete home cleaning services including deep cleaning, regular maintenance, and specialized room cleaning.</p>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Deep Cleaning</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Regular Maintenance</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Kitchen & Bath Focus</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Bedroom & Living Areas</span></div>
+                    </div>
+                  </div>
+                  <!-- Commercial -->
+                  <div class="p-8 rounded-3xl bg-blue-50 border border-slate-100 hover:shadow-xl transition-all duration-500">
+                    <div class="inline-flex p-4 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 mb-6 shadow-lg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 h-8 w-8 text-white"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Commercial Cleaning</h3>
+                    <p class="text-slate-600 mb-6">Professional cleaning for offices, retail spaces, and commercial properties of all sizes.</p>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Office Cleaning</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Retail Spaces</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Common Areas</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Restroom Sanitation</span></div>
+                    </div>
+                  </div>
+                  <!-- Move-In/Out -->
+                  <div class="p-8 rounded-3xl bg-purple-50 border border-slate-100 hover:shadow-xl transition-all duration-500">
+                    <div class="inline-flex p-4 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 mb-6 shadow-lg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-white"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Move-In/Move-Out</h3>
+                    <p class="text-slate-600 mb-6">Get your property ready for new occupants or leave it spotless when you move out.</p>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Deep Sanitization</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Appliance Cleaning</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Cabinet & Closet Detail</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Window Cleaning</span></div>
+                    </div>
+                  </div>
+                  <!-- Post-Construction -->
+                  <div class="p-8 rounded-3xl bg-orange-50 border border-slate-100 hover:shadow-xl transition-all duration-500">
+                    <div class="inline-flex p-4 rounded-2xl bg-gradient-to-br from-orange-500 to-orange-600 mb-6 shadow-lg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hard-hat h-8 w-8 text-white"><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5"></path><path d="M14 6a6 6 0 0 1 6 6v3"></path><path d="M4 15v-3a6 6 0 0 1 6-6"></path><rect x="2" y="15" width="20" height="4" rx="1"></rect></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Post-Construction</h3>
+                    <p class="text-slate-600 mb-6">Thorough cleanup after renovation or construction projects to make spaces move-in ready.</p>
+                    <div class="grid grid-cols-2 gap-3">
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Dust Removal</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Debris Cleanup</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Surface Polishing</span></div>
+                      <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check h-4 w-4 text-cyan-600 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-sm text-slate-700">Final Detail Clean</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Why Choose Us Section -->
+            <section class="py-24 bg-slate-50">
+              <div class="container mx-auto px-6 lg:px-12">
+                <div class="text-center mb-16">
+                  <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Why Choose<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600"> WOPS Cleaning?</span></h2>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                  <div class="text-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="inline-flex p-4 bg-cyan-100 rounded-2xl mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-7 w-7 text-cyan-600"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Insured & Bonded</h3>
+                    <p class="text-slate-600 text-sm">Full coverage for your peace of mind</p>
+                  </div>
+                  <div class="text-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="inline-flex p-4 bg-cyan-100 rounded-2xl mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-7 w-7 text-cyan-600"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Trained Professionals</h3>
+                    <p class="text-slate-600 text-sm">Background-checked, experienced staff</p>
+                  </div>
+                  <div class="text-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="inline-flex p-4 bg-cyan-100 rounded-2xl mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf h-7 w-7 text-cyan-600"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Eco-Friendly Options</h3>
+                    <p class="text-slate-600 text-sm">Green cleaning products available</p>
+                  </div>
+                  <div class="text-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="inline-flex p-4 bg-cyan-100 rounded-2xl mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock h-7 w-7 text-cyan-600"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Flexible Scheduling</h3>
+                    <p class="text-slate-600 text-sm">Same-week availability, work around you</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="py-24 bg-white">
+              <div class="container mx-auto px-6 lg:px-12">
+                <div class="text-center mb-16">
+                  <span class="inline-block px-4 py-1.5 bg-cyan-100 text-cyan-700 text-sm font-medium rounded-full mb-4">Customer Reviews</span>
+                  <h2 class="text-4xl md:text-5xl font-bold text-slate-900">What Our Clients<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600"> Say</span></h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                  <div class="p-8 bg-slate-50 rounded-3xl">
+                    <div class="flex gap-1 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    </div>
+                    <p class="text-slate-600 mb-6 leading-relaxed">"Absolutely amazing service! My home has never looked this clean. The team was professional, thorough, and respectful of my space."</p>
+                    <div><p class="font-bold text-slate-900">Sarah Mitchell</p><p class="text-sm text-slate-500">Homeowner</p></div>
+                  </div>
+                  <div class="p-8 bg-slate-50 rounded-3xl">
+                    <div class="flex gap-1 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    </div>
+                    <p class="text-slate-600 mb-6 leading-relaxed">"We use WOPS for all our move-out cleanings. They consistently deliver exceptional results that impress our new tenants."</p>
+                    <div><p class="font-bold text-slate-900">James Rodriguez</p><p class="text-sm text-slate-500">Property Manager</p></div>
+                  </div>
+                  <div class="p-8 bg-slate-50 rounded-3xl">
+                    <div class="flex gap-1 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-5 text-amber-400 fill-amber-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    </div>
+                    <p class="text-slate-600 mb-6 leading-relaxed">"Our office has never been cleaner. The commercial cleaning team is reliable, efficient, and always goes the extra mile."</p>
+                    <div><p class="font-bold text-slate-900">Linda Chen</p><p class="text-sm text-slate-500">Office Manager</p></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Quote Form Section -->
+            <section id="quote-form" class="py-24 bg-gradient-to-br from-cyan-600 to-teal-500">
+              <div class="container mx-auto px-6 lg:px-12">
+                <div class="max-w-3xl mx-auto">
+                  <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Get Your Free Quote</h2>
+                    <p class="text-lg text-cyan-100">Fill out the form below and we'll get back to you within 24 hours</p>
+                  </div>
+                  <div class="bg-white rounded-3xl p-8 md:p-10 shadow-2xl">
+                    <form class="space-y-6">
+                      <div class="grid md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                          <label class="text-sm font-medium leading-none" for="name">Full Name *</label>
+                          <input class="flex w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm h-12" id="name" placeholder="John Smith" required>
+                        </div>
+                        <div class="space-y-2">
+                          <label class="text-sm font-medium leading-none" for="phone">Phone Number *</label>
+                          <input type="tel" class="flex w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm h-12" id="phone" placeholder="(555) 123-4567" required>
+                        </div>
+                      </div>
+                      <div class="space-y-2">
+                        <label class="text-sm font-medium leading-none" for="email">Email Address *</label>
+                        <input type="email" class="flex w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm h-12" id="email" placeholder="john@example.com" required>
+                      </div>
+                      <div class="grid md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                          <label class="text-sm font-medium leading-none">Service Type *</label>
+                          <select class="flex w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm h-12" required>
+                            <option value="">Select service</option>
+                            <option value="residential">Residential Cleaning</option>
+                            <option value="commercial">Commercial Cleaning</option>
+                            <option value="moveinout">Move-In/Move-Out</option>
+                            <option value="postconstruction">Post-Construction</option>
+                            <option value="regular">Regular Maintenance</option>
+                          </select>
+                        </div>
+                        <div class="space-y-2">
+                          <label class="text-sm font-medium leading-none">Property Type</label>
+                          <select class="flex w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm h-12">
+                            <option value="">Select property type</option>
+                            <option value="apartment">Apartment/Condo</option>
+                            <option value="house">House</option>
+                            <option value="office">Office</option>
+                            <option value="retail">Retail Space</option>
+                            <option value="other">Other</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="space-y-2">
+                        <label class="text-sm font-medium leading-none" for="message">Additional Details</label>
+                        <textarea class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm resize-none" id="message" placeholder="Tell us about your cleaning needs, square footage, any special requests..." rows="4"></textarea>
+                      </div>
+                      <button class="inline-flex items-center justify-center gap-2 w-full h-14 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white font-bold text-lg rounded-xl shadow-lg" type="submit">
+                        <span class="flex items-center gap-2">Get My Free Quote
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-5 w-5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="py-16 bg-slate-900">
+              <div class="container mx-auto px-6 lg:px-12">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                  <div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-white mb-2">Ready for a Spotless Space?</h3>
+                    <p class="text-slate-400">Call us now for immediate booking or questions</p>
+                  </div>
+                  <a href="tel:+18552467460">
+                    <button class="inline-flex items-center justify-center gap-2 h-10 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white font-bold px-10 py-6 text-xl rounded-xl shadow-lg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone mr-3 h-6 w-6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>1-855-246-7460
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-slate-950 text-white">
+          <div class="container mx-auto px-6 lg:px-12 py-16">
+            <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-12">
+              <div>
+                <div class="flex items-center gap-3 mb-6">
+                  <div class="p-2 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 h-6 w-6 text-white"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg>
+                  </div>
+                  <div><h3 class="font-bold text-lg">WHITE OMAR</h3><p class="text-xs text-slate-400">PROPERTY SOLUTIONS</p></div>
+                </div>
+                <p class="text-slate-400 leading-relaxed mb-6">A real estate investment company building wealth through strategic acquisitions across multiple property sectors.</p>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-6">Investments</h4>
+                <ul class="space-y-3">
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="services.html">Tax Liens & Foreclosures</a></li>
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="services.html">Property Management</a></li>
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="services.html">Rehabilitation</a></li>
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="services.html">Section 8 Housing</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-6 flex items-center gap-2"><span class="text-cyan-400">✨</span> Cleaning Services</h4>
+                <ul class="space-y-3">
+                  <li><a class="text-slate-400 hover:text-cyan-400 transition-colors" href="cleaning.html">Residential Cleaning</a></li>
+                  <li><a class="text-slate-400 hover:text-cyan-400 transition-colors" href="cleaning.html">Commercial Cleaning</a></li>
+                  <li><a class="text-slate-400 hover:text-cyan-400 transition-colors" href="cleaning.html">Move-In/Move-Out</a></li>
+                  <li><a class="text-slate-400 hover:text-cyan-400 transition-colors" href="cleaning.html">Post-Construction</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-6">Quick Links</h4>
+                <ul class="space-y-3">
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="index.html">Home</a></li>
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="services.html">Services</a></li>
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="about.html">About Us</a></li>
+                  <li><a class="text-slate-400 hover:text-amber-400 transition-colors" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-6">Contact Us</h4>
+                <ul class="space-y-4">
+                  <li class="flex items-start gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin h-5 w-5 text-amber-500 mt-0.5 shrink-0"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span class="text-slate-400">1441 Woodmont Lane<br>Suite 309<br>Atlanta, Georgia 30318</span>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone h-5 w-5 text-amber-500 shrink-0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <a href="tel:+18552467460" class="text-slate-400 hover:text-amber-400 transition-colors">1-855-246-7460</a>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-5 w-5 text-amber-500 shrink-0"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                    <a href="mailto:info@wops.homes" class="text-slate-400 hover:text-amber-400 transition-colors">info@wops.homes</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="border-t border-white/10">
+            <div class="container mx-auto px-6 lg:px-12 py-6">
+              <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+                <p>© 2026 White Omar Property Solutions. All rights reserved.</p>
+                <div class="flex gap-6">
+                  <a href="#" class="hover:text-amber-400 transition-colors">Privacy Policy</a>
+                  <a href="#" class="hover:text-amber-400 transition-colors">Terms of Service</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="assets/js/navbar.js"></script>
+</body>
+</html>
